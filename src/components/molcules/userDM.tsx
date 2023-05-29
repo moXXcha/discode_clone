@@ -1,26 +1,13 @@
 import React from "react";
-import Image from "next/image";
 import UserIcon from "../atoms/userIcon";
-import DMButton from "../atoms/DMButton";
-import MenuButton from "../atoms/menuButton";
 import UserName from "../atoms/userName";
-import IsOnline from "../atoms/isOnline";
 
 const UserDM = () => {
   return (
-    <div className="w-5/6 h-10 bg-secondary flex px-2 rounded-md items-center">
-      <div className="flex">
-        <UserIcon src="/ojisan.jpg" />
-        <div className="ml-2">
-          <UserName name="chacha" />
-          <IsOnline />
-        </div>
-      </div>
-      <div className="ml-auto flex">
-        <div className="mr-2">
-        <DMButton />
-        </div>
-        <MenuButton />
+    <div className="bg-secondary w-24 h-8 flex items-center px-2 rounded-md">
+      <UserIcon src="/ojisan.jpg" />
+      <div className="ml-5">
+        <UserName name="ねむい" />
       </div>
     </div>
   );
