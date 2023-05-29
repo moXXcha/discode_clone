@@ -18,6 +18,7 @@ module.exports = {
       secondary: '#3F4248',
       navigation: '#2A2D31',
       dark: '#1E1F22',
+      secondText: '#C8C8C8'
     }
   },
   plugins: [],
