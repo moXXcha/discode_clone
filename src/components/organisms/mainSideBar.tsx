@@ -7,11 +7,11 @@ import UserProfile from "../molecules/userProfile";
 
 const MainSideBar = () => {
   return (
-    <div className="h-screen">
-      <div className="w-32 h-[8%] border border-border rounded-md flex items-center justify-center">
+    <div className="h-screen w-1/12">
+      <div className="w-full h-[8%] border border-border rounded-md flex items-center justify-center">
         <SearchChannel />
       </div>
-      <div className="w-32 h-[92%] border border-border rounded-md flex flex-col justify-between ">
+      <div className="w-full h-[92%] border border-border rounded-md flex flex-col justify-between ">
         <div className="space-y-1 flex flex-col items-center">
           <UtilityButton status="friend" />
           <UtilityButton status="memo" />
