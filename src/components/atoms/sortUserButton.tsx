@@ -29,7 +29,7 @@ const getText = (status: Status) => {
 const SortUserButton = (props: Props) => {
     const text = getText(props.status)
   return (
-    <button className="bg-secondary w-24 h-8 rounded-md"><p className="text-xs">{text}</p></button>
+    <button className="bg-secondary w-24 h-6 rounded-md"><p className="text-xs">{text}</p></button>
   )
 }
 
