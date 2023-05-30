@@ -8,7 +8,7 @@ type Props = {
 }
 const UtilityButton = (props: Props) => {
   return (
-    <div className="w-24 h-8 bg-secondary flex justify-between px-2 items-center rounded-md">
+    <div className="w-24 h-8 bg-secondary flex justify-between px-2 items-center rounded-md hover:bg-[#33363B]">
         <UtilityButtonImage status={props.status} />
         <UtilityButtonText status={props.status} />
     </div>
