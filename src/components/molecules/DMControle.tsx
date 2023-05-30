@@ -4,7 +4,7 @@ import DMAddButton from '../atoms/DMAddButton'
 
 const DMControle = () => {
   return (
-    <div className="flex w-32 items-center px-2 border">
+    <div className="flex w-32 items-center px-2">
         <DMIndicater />
         <DMAddButton />
     </div>
