@@ -11,7 +11,7 @@ type Props = {
 }
 const UserProfile = (props: Props) => {
   return (
-    <div className="flex items-center w-32 h-8 bg-primary px-1">
+    <div className="flex items-center w-full h-8 bg-primary px-1 rounded-b-md">
         <UserIcon src={props.src} />
         <div className="ml-1">
             <UserName name={props.name} />
