@@ -8,7 +8,7 @@ type Props = {
 }
 const UserDM = (props: Props) => {
   return (
-    <div className="bg-secondary w-24 h-8 flex items-center px-2 rounded-md">
+    <div className="bg-secondary w-24 h-8 flex items-center px-2 rounded-md hover:bg-[#33363B] transition-all">
       <UserIcon src={props.src} />
       <div className="ml-5">
         <UserName name={props.name} />
