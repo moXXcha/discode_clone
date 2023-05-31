@@ -3,6 +3,7 @@ import UtilityButton from "../molecules/utilityButton";
 import SortUserButton from "../atoms/sortUserButton";
 import AddFriendButton from "../atoms/addFriendButton";
 
+const statuses = ["オンライン", "全て表示", "保留中", "ブロック中"]
 const MainHeader = () => {
   return (
     <div className="flex w-10/12 border border-border rounded-md">
